@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--font-family-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    
+    <!-- title of site -->
+    <title>Bailey Shelden</title>
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+   
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!--flat icon css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css" >	
+    
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    </head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Bailey Shelden</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+								<li class=" smooth-menu active"></li>
+								<li class=" smooth-menu"><a href="index.html#education">education</a></li>
+								<li class=" smooth-menu"><a href="index.html#skills">skills</a></li>
+								<li class=" smooth-menu"><a href="index.html#experience">experience</a></li>
+								<li class=" smooth-menu"><a href="index.html#portfolio">portfolio</a></li>
+								<li class=" smooth-menu"><a href="index.html#contact">contact</a></li>
+							</ul>
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+	</header><!-- /.top-area-->
+		<!-- top-area End -->	
+		 <!--welcome-hero start -->
+		<section id="welcome-hero" class="welcome-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2>hi <span>,</span> i am <br> bailey <br> shelden <span>.</span>   </h2>
+							<p>data analyst & web developer</p>
+							<a href="assets/womens-rights/2201 Final Project Write Up copy.pdf" download>Read about the Project</a>
+						</div><!--/.header-text-->
+					</div><!--/.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--about start -->
+		<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2> Women's Rights as Human Rights Data Analysis 
+                    <br>
+                    June - August 2024
+                </h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>Research Question: How are women's rights changing around the world?</h3>
+								<p>Data Source: This project utilized the World Health Organization Global Health Observatory (WHOGHO) API and two additional datasets comprising six CSV files.</p>
+								<p>Data Processing & Cleaning: A significant portion of the work involved navigating inconsistencies in the API data, including handling country abbreviations and region-based reporting. I employed pandas to clean and prepare the data, including renaming columns for clarity (e.g., TimeDim, ParentLocation, SpatialDim) and utilizing functions like describe(), .columns, head(), and dropna() to ensure data quality..</p>	
+								</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="assets/womens-rights/square-screen-shot.png" alt="profile_image">
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>Data Transformation: To facilitate analysis and visualization, I implemented various pandas functions, including unstacking dataframes (.unstack()), and reshaping data as needed.</p>
+                <br>
+                <p>Visualization Techniques: The project focused on creating insightful visualizations using Python libraries such as Seaborn and Plotly. This included the creation of choropleth maps to illustrate geographical variations and other chart types (potentially countplots or others mentioned in your "Works Cited" like those created with Matplotlib) to highlight trends within specific indicators. Attention was paid to figure aesthetics using Seaborn and Matplotlib to ensure clear and impactful communication of the findings.</p>				
+				<br>
+                <p>Key Findings (as implied in your write-up): While the write-up points to challenges in data collection and the persistent issue of patriarchal prioritization, the visualizations themselves likely revealed specific trends in the examined categories. (When you have specific insights from your visualizations, you can add a bullet point or two here summarizing those key findings. For example: "Visualizations revealed [specific trend in gender equality] across [region] over time," or "Analysis of labor force participation data highlighted [specific disparity].")</p>
+                <br>
+				<h3>Skills: Written Communication · Python (Programming Language) · Project Management · Presentation Skills · Data Analysis · Mathematical Statistics · Seaborn</h3>
+				<br>
+                <h3>This project was completed solely by Bailey Shelden</h3>
+				<br>
+				<h1><a href="assets/womens-rights/2201 Final Project Write Up copy.pdf" download>download the final write up</a></h1>
+                <h1><a href="assets/womens-rights/Women's Rights.zip" download="">download a ZIP File Containing Data Used and a Jupyter File</a></h1>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
+
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; copyright BaileyShelden 2025
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+	
+		
+		<!-- for progress bar start-->
+
+		<!-- progressbar js -->
+		<script src="assets/js/progressbar.js"></script>
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+		<!-- for progress bar end -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
